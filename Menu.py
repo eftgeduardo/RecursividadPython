@@ -101,10 +101,12 @@ def MenuFactorial():
   print("Factorial X")
   x = int(input())
   print ("Resultado= {}".format(factorial(x)))
+  main()
 def MenuSumatoria():
   print("Sumatoria X")
   x = int(input("x"))
   print ("Resultado= {}".format(Sumatoria(x)))
+  main()
 def MenuPotencia():
   print("Potencia x^y")
   x = int(input("x= "))
@@ -116,24 +118,29 @@ def MenuMultiplicacion():
   x = int(input("x= "))
   y = int(input("y= "))
   print ("Resultado {}".format(multiplicacion(x,y)))
+  main()
 def MenuDivision():
   print("Division x/y")
   x = int(input("x= "))
   y = int(input("y= "))
   print ("Resultado {}".format(division(x,y)))
+  main()
 def MenuPotencia2():
   print("Division x^y")
   x = int(input("x= "))
   y = int(input("^y = "))
   print ("Resultado {}".format(potencia2(x,y)))
+  main()
 def MenuPalindromo():
   print("Palindromo")
   s=input("Palabra= ")
   print ("Resultado {}".format(palindromo(s)))
+  main()
 def MenuInversionString():
   print("Palindromo")
   s=input("Palabra= ")
   print ("Resultado {}".format(inversionString(s)))
+  main()
 def MenuTorreHanoi():
   print("Torres Hanoi")
   x=int(input("cantidad de discos:"))
@@ -141,10 +148,12 @@ def MenuTorreHanoi():
   f=int(input("posicion Final: "))
   print("Resultado: ")
   print(torresHanoi(x,i,f))
+  main()
 def MenuFibonacci():
   print("Fibonacci")
   x=int(input("numero:"))
   forFibonacci(0,x)
+  main()
   #print ("Resultado: {}".format(fibonacci(x)))
 
 #lambda
