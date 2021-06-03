@@ -110,6 +110,7 @@ def MenuPotencia():
   x = int(input("x= "))
   y = int(input("^y= "))
   print ("Resultado {}".format(potencia(x,y)))
+  main()
 def MenuMultiplicacion():
   print("Potencia x*y")
   x = int(input("x= "))
